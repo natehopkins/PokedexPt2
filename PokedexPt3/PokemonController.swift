@@ -27,9 +27,16 @@ class PokemonController {
                 
                 guard let responseDictionary = (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)) as? [String: Any] else { print("Error serializing JSON. \n Response: \(responseDataString)"); return }
                 
-                pokemon = Pokemon(dictionary: responseDictionary)
+                let newPokemon = Pokemon(dictionary: responseDictionary)
                 
-                return
+                guard let endpoint = newPokemon?.spriteEndpoint else { return }
+                ImageController.image(forURL: endpoint, completion: { (image) in
+                    guard let image = image else { print("Image returned is nil"); return }
+                    
+                    newPokemon?.sprite = image
+                    pokemon = newPokemon
+                    completion(newPokemon)
+                })
         }
         
     }

@@ -6,7 +6,7 @@
 //  Copyright © 2016 NathanHopkins. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Pokemon {
     
@@ -19,6 +19,7 @@ class Pokemon {
     let type: String
     let name: String
     let moveCount: Int
+    var sprite: UIImage?
     
     init(spriteEndpoint: String, types: String, name: String, moveCount: Int) {
         self.spriteEndpoint = spriteEndpoint
