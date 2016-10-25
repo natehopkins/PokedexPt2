@@ -15,6 +15,7 @@
 		D8A049581DBFB7CE0004E055 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A049571DBFB7CE0004E055 /* Pokemon.swift */; };
 		D8A0495C1DBFC0890004E055 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0495B1DBFC0890004E055 /* NetworkController.swift */; };
 		D8A0495E1DBFC0D70004E055 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0495D1DBFC0D70004E055 /* ImageController.swift */; };
+		D8A049611DBFC17E0004E055 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A049601DBFC17E0004E055 /* ModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D8A049571DBFB7CE0004E055 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		D8A0495B1DBFC0890004E055 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		D8A0495D1DBFC0D70004E055 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		D8A049601DBFC17E0004E055 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		D8A049391DBFB5A40004E055 = {
 			isa = PBXGroup;
 			children = (
+				D8A049601DBFC17E0004E055 /* ModelController.swift */,
 				D8A049441DBFB5A40004E055 /* PokedexPt3 */,
 				D8A049431DBFB5A40004E055 /* Products */,
 			);
@@ -158,6 +161,7 @@
 				D8A0495E1DBFC0D70004E055 /* ImageController.swift in Sources */,
 				D8A0495C1DBFC0890004E055 /* NetworkController.swift in Sources */,
 				D8A049481DBFB5A40004E055 /* ViewController.swift in Sources */,
+				D8A049611DBFC17E0004E055 /* ModelController.swift in Sources */,
 				D8A049461DBFB5A40004E055 /* AppDelegate.swift in Sources */,
 				D8A049581DBFB7CE0004E055 /* Pokemon.swift in Sources */,
 			);
